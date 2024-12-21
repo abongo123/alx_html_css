@@ -311,3 +311,167 @@ body, html {
 .rating .star.inactive {
     background: #D8D8D8;
 }
+/* part_3_free_membership */
+.part_3_free_membership {
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    left: 0;
+    top: 2109px;
+    background: #071629;
+}
+
+/* Free membership heading */
+.part_3_free_membership .heading {
+    position: absolute;
+    height: 40px;
+    left: 42.85%;
+    right: 40.9%;
+    top: calc(50% - 40px/2 - 161px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #C271FF;
+}
+
+/* Button container */
+.part_3_free_membership .button {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    top: 80.88%;
+    bottom: 10.36%;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+/* Button background */
+.part_3_free_membership .button .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #C271FF;
+    border-radius: 22px;
+}
+
+/* Button text */
+.part_3_free_membership .button .text {
+    position: absolute;
+    height: 18px;
+    left: 13.27%;
+    right: 12.04%;
+    top: calc(50% - 18px/2);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Dots and text blocks */
+.part_3_free_membership .dot {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.part_3_free_membership .dot_1 {
+    left: 11.39%;
+    right: 70.76%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+.part_3_free_membership .dot_2 {
+    left: 31.11%;
+    right: 51.04%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+.part_3_free_membership .dot_3 {
+    left: 50.9%;
+    right: 31.25%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+.part_3_free_membership .dot_4 {
+    left: 70.76%;
+    right: 11.39%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+/* Dot descriptions */
+.part_3_free_membership .dot .description {
+    position: absolute;
+    height: 52px;
+    left: 8.75%;
+    right: 8.75%;
+    top: calc(50% - 52px/2 + 50.5px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Dot titles */
+.part_3_free_membership .dot .title {
+    position: absolute;
+    height: 26px;
+    left: 0.19%;
+    right: 0.19%;
+    top: calc(50% - 26px/2 - 1.5px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Smile icons */
+.part_3_free_membership .smile {
+    position: absolute;
+    width: 43.67px;
+    height: 35.35px;
+    left: 106.71px;
+    top: 0.03px;
+}
+
+/* Paths for design */
+.part_3_free_membership .path {
+    position: absolute;
+    background: #C271FF;
+}
+
+.part_3_free_membership .path_1 {
+    left: 43.58%;
+    right: 52.75%;
+    top: 0.02%;
+    bottom: 90.69%;
+}
+
+.part_3_free_membership .path_2 {
+    left: 52.32%;
+    right: 44.01%;
+    top: 0.02%;
+    bottom: 90.69%;
+}
+
+.part_3_free_membership .path_3 {
+    left: 41.52%;
+    right: 41.87%;
+    top: 16.22%;
+    bottom: 76.82%;
+    transform: rotate(-7deg);
+}
