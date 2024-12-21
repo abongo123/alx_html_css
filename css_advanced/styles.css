@@ -81,45 +81,79 @@ body, html {
 .hero-content .btn:hover {
     background-color: #531b93;
 }
-
-/* Testimonial Section */
-.testimonial {
-    background-color: #9b59b6;
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
+/* General Styles for Testimonials Section */
+.part_1_testimonials {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+    background: #C271FF; /* Background color for testimonials section */
 }
 
-.testimonial .content {
-    max-width: 800px;
-    margin: 0 auto;
+/* Testimonial Box */
+.testimonial {
+    position: absolute;
+    width: 943px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
 }
 
-.testimonial img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid #fff;
+/* Avatar (Image Container) */
+.avatar {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background: #FFFFFF; /* White circular background */
+    border-radius: 50%; /* Ensures circular shape */
+    overflow: hidden; /* Ensures image fits inside circle */
 }
 
-.testimonial blockquote {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin: 0;
+/* Bitmap (Actual Avatar Image) */
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the avatar */
 }
 
-.testimonial .author {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 1rem;
+/* Testimonial Text */
+.testimonial .text {
+    width: 730px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
 }
 
-.testimonial .author span {
-    display: block;
-    font-size: 0.9rem;
-    color: #f0f0f0;
+/* Person Name */
+.testimonial .text .person-name {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* Weather Presenter */
+.testimonial .text .weather-presenter {
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* Quotation */
+.testimonial .text .quote {
+    font-weight: 400;
+}
+
+/* Responsive Image for Bitmap */
+.bitmap {
+    position: absolute;
+    width: 394px;
+    height: 341px;
+    left: 142px;
+    top: 1176px;
+    background: url('Image') no-repeat center center;
+    background-size: cover; /* Ensures image is scaled appropriately */
 }
