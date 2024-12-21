@@ -80,5 +80,129 @@ body, html {
 .hero-content .btn:hover {
     background-color: #531b93;
 }
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover; /* Add background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Add a dark overlay for better text contrast */
+    z-index: 1;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    z-index: 2;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.hero-content .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6a0dad; /* Purple button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #531b93;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #9b59b6; /* Light purple background */
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial .content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.testimonial blockquote {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.testimonial .author {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.testimonial .author span {
+    display: block;
+    font-size: 0.9rem;
+    color: #f0f0f0;
+}
 
 
