@@ -1,1 +1,17 @@
+header{
+    align-content: center;
+    font-display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: flex right;
+}
+body{
+    background-image: url(Images/images/headphones_hero_1.jpg);
+}
+a{
+    text-decoration: none;
+    margin: 2px;
+    text-align: right;
+    color: white;
+}
 
