@@ -14,3 +14,13 @@ a{
     text-align: right;
     color: white;
 }
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 30px;
+}
+a:hover{
+    color: red;
+    opacity: 0.9;
+}
