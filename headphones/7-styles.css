@@ -1,1 +1,224 @@
+eader{
+    align-content: center;
+    font-display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: flex right;
+}
+div{
+    background-image: url(Images/images/headphones_hero_1.jpg);
+}
+a{
+    text-decoration: none;
+    margin: 2px;
+    text-align: right;
+    color: white;
+}
+.P1{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 30px;
+}
+a:hover{
+    color: red;
+    opacity: 0.9;
+}
+.Icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-image: none;
+    size-adjust: 20px;
+    position: absolute;
+    padding: 5%;
+    margin: 0%;
+    height: 6%
+}
+.WWD{
+    background-image: none;
+    padding: 8%;
+}
+.Results{
+    background-image: url(Images/images/headphones_hero_2.jpg);
+    padding: 100px;
+}
+.image-container {
+    position: relative;           
+    width: 100px;
+    height: 100px; 
+    margin-right: 90px;
+    text-align: center;
+    display: inline-block;
+    background: none;
+    left: 70px;
+    top: auto;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.image-container h1, 
+.image-container p {
+  position: absolute;
+  color: white;
+  font-size: 34px
+}
+.image-container h1 {
+    top: 50%;                   
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-container p {
+    bottom: 10%; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;  
+}
+.pentagon {
+    width: 0;
+    border-style: solid;
+    border-width: 0 50px 70px 50px;
+    border-color: transparent transparent #3007e7 transparent;
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 70px;
+    margin-right: 90px;
+    background-image: none;
+    animation: rotateAnticlockwise 2s linear infinite;
+}
+@keyframes rotateAnticlockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  .pentagons{
+    left: 70px;
+    margin-top: -60px;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    size-adjust: 100px;
+    position: absolute;
+    height: 6%
+    }
+  .pentagon:after {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: -50px;
+    width: 0;
+    border-style: solid;
+    border-width: 43.3px 50px 0 50px;
+    border-color: #15ee32 transparent transparent transparent;
+  }
+.Text{
+    display: flex;
+    font-size: 10px;
+}
+.Contact{
+    background-image: none;
+    text-align: center;
+    padding: 19px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.Contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 18;
+    width: 100;
+}
+.Contact label {
+    font-weight: bold;
+    text-align: center;
+}
+.Contact input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 0.4px solid black;
+}
+.Contact button :hover{
+    background-color: rgb(56, 54, 54);
+}
+.button
+.Contact button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.Contact button:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+.Contact button:hover span {
+    padding-right: 25px;
+  }
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+footer{
+    background-color: black;
+    justify-content: center;
+}
+.fab{
+    margin-top: 40px;
+    margin-right: 1px;
+    gap: 0px;
+}
+.figure{
+    animation: star-blink 1.5s infinite ease-in-out;
+}
+@keyframes star-blink {
+  0%, 100% {
+    opacity: 30; 
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+.FI{
+    justify-content: flex-start;
+    align-items: start;
+}
+img{
+    size: 1px 2px;
+}
+@media (max-width: 480px)
 
