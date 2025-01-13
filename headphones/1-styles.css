@@ -5,7 +5,7 @@ header{
     padding: 20px;
     justify-content: flex right;
 }
-body{
+div{
     background-image: url(Images/images/headphones_hero_1.jpg);
 }
 a{
@@ -13,6 +13,18 @@ a{
     margin: 2px;
     text-align: right;
     color: white;
+}
+.P1{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
 }
 nav{
     display: flex;
@@ -22,4 +34,5 @@ nav{
 }
 a:hover{
     color: red;
+    opacity: 0.9;
 }
