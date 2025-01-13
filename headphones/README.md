@@ -1,4 +1,3 @@
-Description
 Lorem Ipsum Headphones is a website that introduces and showcases our innovative headphones. The website provides key information about the product, its impact, and how users can reach out to us. The site is divided into five main sections that present our product and its benefits clearly.
 
 Sections
